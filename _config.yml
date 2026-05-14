@@ -104,3 +104,11 @@ deploy:
   type: git
   repo: git@github-js:lkjo1989/blog.git
   branch: main
+
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml
+
+permalink_pinyin:
+  enable: true
+  separator: '-'    # 分隔符，默认是 '-'
