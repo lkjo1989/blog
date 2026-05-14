@@ -105,9 +105,23 @@ deploy:
   repo: git@github-js:lkjo1989/blog.git
   branch: main
 
+# robots.txt 配置
 robotstxt:
-  useragent: "*"
-  sitemap: /sitemap.xml
+  useragent: "*"  # 对所有搜索引擎生效
+  disallow:
+    - /vendors/
+    - /js/
+    - /css/
+    - /fonts/
+    - /fancybox/
+  allow:
+    - /
+    - /archives/
+    - /categories/
+    - /tags/
+    - /about/
+  sitemap:
+    - /sitemap.xml
 
 permalink_pinyin:
   enable: true
