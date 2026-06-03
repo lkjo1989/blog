@@ -9,4 +9,4 @@ Allow: /archives/
 Allow: /categories/
 Allow: /tags/
 Allow: /about/
-Sitemap: /sitemap.xml
+Sitemap: https://lkjo1989.github.io/blog/sitemap.xml
