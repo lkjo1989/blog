@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lkjo1989的博客
+title: 香菇炖鸡的资源小窝
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lkjo1989.github.io/blog
+url: https://blog.09430943.xyz/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -30,6 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - google811434e48a8efc56.html
+  - CNAME
 
 # Writing
 new_post_name: :title.md # File name of new posts
